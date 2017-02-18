@@ -42,7 +42,7 @@ namespace Face_Searcher.Classes
 
             //Do I need to set names? Everything should refer to a collection
             camCheck.Text = CD.camNumber.ToString();
-            camCheck.Size = new System.Drawing.Size(59, 26);
+            camCheck.Size = new System.Drawing.Size(50, 26);
             camCheck.Location = new System.Drawing.Point(2, this.yPos);
             camCheck.Checked = false;
             camCheck.Font =  new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
